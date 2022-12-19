@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(nuru2.jpg);
+    font-family: Roboto, sans-serif;
+}
+
+.house {
+    width: 67%;
+    height: 100%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(219, 154, 100);
+    margin-top: 13px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav h1 a {
+    text-decoration: none;
+    color: rgb(219, 154, 100);
+    font-size: 18px;
+    font-weight:649;
+    margin-bottom: 20px;
+    
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-inline: 13px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(219, 154, 100);
+    font-size: 10px;
+    font-weight: 500;
+}
+
+nav button {
+    background-color: transparent;
+    border: 1px solid rgb(219, 154, 100);
+    padding: 8px 28px;
+    color: rgb(219, 154, 100);
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+nav button:hover,
+.container button:hover,
+.inner button:hover {
+    background-color: rgb(219, 154, 100);
+    color: white;
+    cursor: pointer;
+}
+
+li a:hover {
+   text-decoration: underline;
+}
+
+.container {
+    display: block;
+    margin-top: 20px;
+    align-self: center;
+    width: 65%;
+    margin-left: 0;
+}
+
+.container button {
+    background-color: transparent;
+    padding: 15px 25px;
+    border: 1px solid rgb(219, 154, 100);
+    line-height: 0.5px;
+    margin-top: 40px;
+    color: rgb(219, 154, 100);
+    font-size: 10px;
+}
+
+.container h6 {
+    font-weight: 50;
+    color: white;
+    font-size: 28px;
+}
+
+.container span {
+    color: rgb(219, 154, 100);
+}
+
+.main {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.main img {
+    width: 40%%;
+    height: 340px;
+}
+
+.outer {
+    justify-content: center;
+    display: block;
+    width: 100%;
+}
+
+.outer h1 {
+    width: 80%;
+    font-weight: 200;
+    font-size: 22px;
+    color: white;
+}
+
+.inner {
+    display: block;
+    width: 45%;
+}
+
+.inner p {
+    font-size: 10px;color: #c9c9c9;
+    font-weight: 30;
+    line-height: 1.7;
+    margin-top: 16px;
+}
+
+.inner button {
+    background-color: transparent;
+    border: 1px solid rgb(219, 154, 100);
+    padding: 8px 28px;
+    color: rgb(219, 154, 100);
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+.inner2 {
+    display: block;
+    color: white;
+    margin-left: 80px;
+    width: 50%;
+    line-height: 3.7;
+    font-size: 11px;
+}
+
+.internal {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.relative {
+    position: relative;
+    height: 4px;
+    width: 280px;
+    background-color: rgb(219, 154, 100);
+    border-radius: 2px;
+}
+
+.absolute {
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+    top: 1;
+    right: 0;
+}
+
+.relative1,
+.relative2,
+.relative3 {
+    position: relative;
+    height: 4px;
+    width: 280px;
+    background-color: rgb(219, 154, 100);
+    border-radius: 2px;
+}
+
+.absolute1,
+.absolute2,
+.absolute3 {
+    position: absolute;
+    height: 4px;
+    width: 45px;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+    top: 1;
+    right: 0;
+}
+
+.inner2 .div1 span {
+    margin-left: 197px;
+}
+
+.inner2 .div2 span {
+    margin-left: 200px;
+}
+
+.inner2 .div3 span {
+    margin-left: 145px;
+}
+
+.inner2 .div4 span {
+    margin-left: 162px;
+}
+
+.header {
+    color: white;
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.holder {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 31%;
+    border: 1px solid rgb(107, 75, 64);
+    padding: 15px;
+    font-size: 12px;
+    height: 170px;
+    line-height: 2.2;
+}
+
+.holder h1 {
+    color: rgb(219, 154, 100);
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.holder p {
+    color: #c9c9c9;
+    font-size: 9px;
+    font-weight: 100;
+}
+
+.box1,
+.box2,
+.box3 {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 25px;
+    padding-top: 12px;
+}
+
+.case {
+    color: white;
+}
+
+.showcase {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    column-gap: 7px;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.showcase div {
+    width: 250px;
+    border-top: 30px solid black;
+    border-bottom: 30px solid black;
+
+}
+
+.es iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.allon iframe {
+    height: 100%;
+    width: 100%;
+}
